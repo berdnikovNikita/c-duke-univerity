@@ -7,7 +7,7 @@ struct _retire_info {
   double rate_of_return;
 };
 
-typedef _retire_info retire_info;
+typedef struct _retire_info retire_info;
 
 double retBalance(double current, retire_info source) {
   current *= source.rate_of_return;
