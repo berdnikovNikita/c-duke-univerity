@@ -61,7 +61,6 @@ You will write each of these in cards.c.
 
 Now go into cards.c, and write each of these
 functions.  Here are the specifics: 
-
 - void assert_card_valid(card_t c);
   This function should use assert() to check
   that the card passed in has valid values.
