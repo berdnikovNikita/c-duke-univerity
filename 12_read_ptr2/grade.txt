@@ -1,0 +1,8 @@
+Grading at Tue May  5 13:37:38 UTC 2020
+Attempting to compile test.c
+gcc -Wall -Werror --std=gnu99 -fsanitize=address -o test test.c
+compiled
+Your file matched the expected output
+Your output matched what we expected
+
+Overall Grade: PASSED
